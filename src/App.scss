@@ -1,0 +1,67 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+$theme-colors: (
+  "primary": #b42a4d,
+  "secondary": #eea45e,
+  "dark": #131921,
+  "success": #198754,
+  "info": #0dcaf0,
+  "warning": #a7c227,
+  "danger": #dc3545,
+  "light": #f8f9fa,
+);
+
+/* import bootstrap to set changes */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #DF0F7E;
+$secondary-color: #2F8DD2;
+$ternary-color: #131921;
+$white-color: #ffffff;
+
+#navbar {
+  .nav-link {
+    color: $white-color;
+    background-color: $ternary-color;
+    padding-left: 15px;
+    padding-right: 15px;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+  .dropdown-menu {
+    background-color: $primary-color;
+  }
+  .dropdown-item {
+    color: $white-color;
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+    }
+  }
+}
+
+#first-section {
+  background-image: url(Images/logo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+#what-we-do{
+  background-color: $secondary-color;
+  color: white;
+}
+#footer {
+  a {
+    background-color: dark;
+    color: $secondary-color;
+    text-decoration: none;
+    &:hover {
+      color: $primary-color;
+     }
+  }
+}
