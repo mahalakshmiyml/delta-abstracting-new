@@ -7,6 +7,13 @@ const WhatWeDo = () => {
     { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
     { id: 2, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
     { id: 3, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
+    { id: 1, iconurl: "", Title: "TITLE SEARCH", description: "Lorem" },
   ];
   return (
     <div>
