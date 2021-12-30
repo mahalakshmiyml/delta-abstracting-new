@@ -4,7 +4,7 @@
 $theme-colors: (
   "primary": #b42a4d,
   "secondary": #eea45e,
-  "dark": #131921,
+  "dark": #000,
   "success": #198754,
   "info": #0dcaf0,
   "warning": #a7c227,
@@ -23,7 +23,6 @@ $white-color: #ffffff;
 #navbar {
   .nav-link {
     color: $white-color;
-    background-color: $ternary-color;
     padding-left: 15px;
     padding-right: 15px;
     &:hover {
@@ -44,16 +43,14 @@ $white-color: #ffffff;
 }
 
 #first-section {
-  background-image: url(Images/logo.jpeg);
+  background-image: url(Images/logo.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  color: white;
   text-align: center;
 }
 #what-we-do{
   background-color: $secondary-color;
-  color: white;
 }
 #footer {
   a {

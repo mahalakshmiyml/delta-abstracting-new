@@ -4,11 +4,11 @@ import { Col, Container, Row } from "react-bootstrap";
 const FirstSection = () => {
   return (
     <div>
-      <div id="first-section">
+      <div id="first-section" className="pb-3 pb-mb-5">
         <Container>
-          <Row>
-            <Col md={10}>
-              <div className="ratio ratio-4x3 ">
+          <Row className="justify-content-center">
+            <Col md={6}>
+              <div className="ratio ratio-4x3">
                 <iframe
                   src="https://video.wixstatic.com/video/9530b1_374efe2174414ead8a6cc608920f68d9/1080p/mp4/file.mp4"
                   title="YouTube video"
@@ -33,7 +33,7 @@ const FirstSection = () => {
                   data-bs-toggle="button"
                   autocomplete="off"
                 >
-                  Toggle button
+                  Read More
                 </button>
                 <button
                   type="button"
@@ -42,7 +42,7 @@ const FirstSection = () => {
                   autocomplete="off"
                   aria-pressed="true"
                 >
-                  Active toggle button
+                  Contact Us
                 </button>
               </div>
             </Col>

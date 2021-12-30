@@ -1,41 +1,34 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import React from "react";
+import { Card, Col, Container, Row, Button } from "react-bootstrap";
+// import iconurl from
 
 const WhatWeDo = () => {
-    return (
-        <div>
-            <div id="what-we-do">
+  const CardDetails = [{ id: 1, iconurl: "", Title: "", description: "" }];
+  return (
+    <div>
+      <div id="what-we-do" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
           <Row>
-            <Col className="p-5">
-              <h1>What We Do</h1>
-              <p>
-                Lorem Ipsum is Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem
-                Ipsum is Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem Ipsum is
-                Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem Ipsum is Lorem
-                Ipsum Lorem Ipsum is Lorem Ipsum Lorem Ipsum is Lorem Ipsum
-                Lorem Ipsum is Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem
-                Ipsum is Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem Ipsum is
-                Lorem Ipsum Lorem Ipsum is Lorem Ipsum Lorem Ipsum is Lorem
-                Ipsum
-              </p>
-              <div className="text-start">
-                <button
-                  type="button"
-                  class="btn btn-primary active p-2"
-                  data-bs-toggle="button"
-                  autocomplete="off"
-                  aria-pressed="true"
-                >
-                  Who We Are
-                </button>
-              </div>
-            </Col>
+            {CardDetails.map((item) => (
+              <Col md={4} key={item.id}>
+                <Card className="p-3">
+                  <div className="text-center">
+                    <i className="fas fa-users p-3 fs-1 bg-dark text-white rounded-circle"></i>
+                  </div>
+                  <Card.Body className="text-center">
+                    <Card.Title>{item.Title}</Card.Title>
+                    <Card.Text>
+                      {item.description}
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+            ))}
           </Row>
         </Container>
       </div>
-        </div>
-    )
-}
+    </div>
+  );
+};
 
-export default WhatWeDo
+export default WhatWeDo;
