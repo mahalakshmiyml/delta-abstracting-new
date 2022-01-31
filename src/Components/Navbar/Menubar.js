@@ -1,13 +1,22 @@
 import React from "react";
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
-import logo from '../../Images/logo.png'
+import logo from "../../Images/logo.png";
 
 const Menubar = () => {
   return (
-    <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" id="navbar">
+    <div 
+    className="shadow sticky-top border-bottom border-white">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="dark"
+        variant="dark"
+        id="navbar"
+      >
         <Container>
-          <Navbar.Brand href="#home"><Image src={logo} className="img-fluid"/></Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <Image src={logo} className="img-fluid" />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
