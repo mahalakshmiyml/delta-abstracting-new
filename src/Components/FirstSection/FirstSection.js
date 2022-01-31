@@ -18,14 +18,14 @@ const FirstSection = () => {
               <div className="">
                 <h3 className="text-white">Heading</h3>
                 <p className="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor
-                  sit amet, consectetur adip Lorem ipsum dolor sit amet,
-                  consectetur adip Lorem ipsum dolor sit amet, consectetur adip
-                  Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor
-                  sit amet, consectetur adip Lorem ipsum dolor sit amet,
-                  consectetur adip Lorem ipsum dolor sit amet, consectetur adip
-                  Lorem ipsum dolor sit amet, consectetur adip Lorem ipsum dolor
-                  sit amet, consectetur adip
+                  Captivate is a high-quality outsourcing company based out of
+                  Bengaluru, Karnataka. We have over 45 years of combined
+                  experience in Business Process Outsourcing, Data Processes,
+                  Mortgage and Title Services, Technology and Web Services, and
+                  much more. Our goal is to provide our clients with accurate
+                  information and research to complete data driven transactions.
+                  We will accomplish our mission through innovative solutions,
+                  systems, research, and people working together.
                 </p>
               </div>
               <div className="text-center">

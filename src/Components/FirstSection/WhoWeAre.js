@@ -10,16 +10,22 @@ const WhoWeAre = () => {
             <Col className="text-center p-5">
               <h1>Who We Are</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
+                Captivate is a Business Process Outsourcing Company
+                headquartered in Bengaluru, providing services in the areas of
+                Outsourcing, Technology, Healthcare, and Web Design. We are
+                primarily engaged in providing Mortgage and Technology services,
+                Enterprise application development, Application software for the
+                Financial Services industry and Business process outsourcing. We
+                have multi-domain experts and have handled projects from various
+                business sectors. Our main clients are large enterprises.
+                However, we are flexible enough to work with Small Businesses as
+                well.
+              </p>
+              <p>
+                Our unique model delivers superior value and faster turnaround
+                while measurably improving our client's business performance.
+                Our Owners have over 45 years of combined experience in handling
+                Title Insurance products.
               </p>
               <div className="text-center">
                 <button

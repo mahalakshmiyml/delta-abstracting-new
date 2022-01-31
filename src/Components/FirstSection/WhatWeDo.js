@@ -7,81 +7,65 @@ const WhatWeDo = () => {
     {
       id: 1,
       iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+      Title: "DATA ENTRY SERVICES",
+      description: [
+        "Faster turnaround time with guaranteed quality",
+        "99% error-free and affordable data entry",
+        "Multiple data entry formats/Templates",
+      ],
     },
     {
       id: 2,
       iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+      Title: "SOFTWARE SERVICES",
+      description: [
+        "Customized software that delivers as promised",
+        "Innovative software solutions for various sectors",
+        "Mobile apps for iOS, Android & Windows",
+      ],
     },
     {
       id: 3,
       iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+      Title: "MORTGAGE SERVICES",
+      description: [
+        "Handling all types of mortgage support functions",
+        "Specialized Title experts and Underwriters",
+        "",
+      ],
     },
     {
       id: 4,
       iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    },
-    {
-      id: 5,
-      iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    },
-    {
-      id: 6,
-      iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    },
-    {
-      id: 7,
-      iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    },
-    {
-      id: 8,
-      iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
-    },
-    {
-      id: 9,
-      iconurl: "",
-      Title: "Heading",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+      Title: "Competitive pricing advantage",
+      description: [
+        "Title Plant Building",
+        "Title Plant Maintenance",
+        "Title Indexing",
+      ],
     },
   ];
   return (
     <div>
       <div id="what-we-do" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
-          <Row>
+          <h3 className="pt-2 pb-2 text-center text-white">What we do</h3>
+          <Row className="g-3">
             {CardDetails.map((item) => (
-              <Col md={4} key={item.id}>
-                <Card className="p-3">
+              <Col md={6} key={item.id}>
+                <Card className="p-3 m-2">
                   <div className="text-center">
                     <i className="fas fa-users p-3 fs-1 bg-dark text-white rounded-circle"></i>
                   </div>
                   <Card.Body className="text-center">
                     <Card.Title>{item.Title}</Card.Title>
-                    <Card.Text>{item.description}</Card.Text>
+                    <Card.Text>
+                      <ul className="list-unstyled">
+                        {item.description.map((list, index) => (
+                          <li key={index} className="lh-lg">{list}</li>
+                        ))}
+                      </ul>
+                    </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>

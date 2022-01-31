@@ -1,139 +1,63 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Accordion, Col, Container, Row } from "react-bootstrap";
 
 const References = () => {
   return (
     <div>
-      <div id="who-we-are" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      <div id="careers" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
           <Row>
-            <Col md={12} className="text-center">
+            <Col md={12}>
               <div className="text-center">
-                <h1>References</h1>
+                <h1>DISCOVER YOUR POTENTIAL!!!</h1>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  Captivate is a dynamic and growing company with exciting
+                  career opportunities at our campuses in the Bengaluru. Read
+                  more about our company, benefits, values and commitment to
+                  diversity, then click Apply Now to see if any of our available
+                  positions are a good match to your skills and experience.
+                </p>
+                <p>
+                  Captivate firmly believes that when talented employees from
+                  varied backgrounds are engaged to contribute to the company's
+                  success, higher levels of performance result from diverse
+                  teams addressing challenges and opportunities together.
+                </p>
+                <p>
+                  EMAIL YOUR RESUMES TO 
+                  <a className="text-dark text-decoration-none" href="mailto:hr@captivatebusinessservices.com">
+                  @captivatebusinessservices.com</a>
                 </p>
               </div>
 
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      Accordion Item #1
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong>{" "}
-                      It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      Accordion Item #2
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      Accordion Item #3
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-bs-toggle="button"
-                  autocomplete="off"
-                  aria-pressed="true"
-                >
-                  Button
-                </button>
-              </div>
+              {/* <Accordion defaultActiveKey="0">
+                <Accordion.Item eventKey="0">
+                  <Accordion.Header>Question</Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </Accordion.Body>
+                </Accordion.Item>
+                <Accordion.Item eventKey="1">
+                  <Accordion.Header>Question</Accordion.Header>
+                  <Accordion.Body>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                  </Accordion.Body>
+                </Accordion.Item>
+              </Accordion> */}
             </Col>
           </Row>
         </Container>

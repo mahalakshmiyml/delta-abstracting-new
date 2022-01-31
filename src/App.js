@@ -4,8 +4,8 @@ import FirstSection from './Components/FirstSection/FirstSection';
 import WhoWeAre from './Components/FirstSection/WhoWeAre';
 import WhatWeDo from './Components/FirstSection/WhatWeDo';
 import References from './Components/FirstSection/References';
-import ContactUs from './Components/ContactUs/ContactUs';
 import Footer from './Components/Footer/Footer';
+import Contact from './Components/ContactUs/Contact';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <WhoWeAre />
       <WhatWeDo />
       <References />
-      <ContactUs />
+      <Contact />
       <Footer />
     </div>
   );
