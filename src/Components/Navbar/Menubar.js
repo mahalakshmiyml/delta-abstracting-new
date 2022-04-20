@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
-import logo from "../../Images/logo.png";
+import logo from "../../Images/logo.jpg";
 
 const Menubar = () => {
   return (
@@ -23,7 +23,7 @@ const Menubar = () => {
               <Nav.Link href="#overview">Overview</Nav.Link>
               <Nav.Link href="#who-we-are">Who We are</Nav.Link>
               <Nav.Link href="#what-we-do">What we do</Nav.Link>
-              <Nav.Link href="#careers">Careers</Nav.Link>
+              {/* <Nav.Link href="#careers">Careers</Nav.Link> */}
               <Nav.Link href="#contact">Want To Join Us</Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -4,19 +4,19 @@ import { Col, Container, Row } from "react-bootstrap";
 const FirstSection = () => {
   return (
     <div>
-      <div id="first-section" className="pb-3 pb-mb-5 bg-dark">
+      <div id="overview" className="bg-dark">
         <Container>
           <Row className="justify-content-center">
             <Col md={6}>
-              <div className="ratio ratio-16x9 mt-5">
+              {/* <div className="ratio ratio-16x9 mt-5">
                 <iframe
                   src="https://video.wixstatic.com/video/9530b1_374efe2174414ead8a6cc608920f68d9/1080p/mp4/file.mp4"
                   title="YouTube video"
                   allowfullscreen
                 ></iframe>
-              </div>
+              </div> */}
               <div className="">
-                <h3 className="text-white">Heading</h3>
+                {/* <h3 className="text-white">Heading</h3> */}
                 <p className="text-white">
                   Captivate is a high-quality outsourcing company based out of
                   Bengaluru, Karnataka. We have over 45 years of combined
@@ -29,23 +29,18 @@ const FirstSection = () => {
                 </p>
               </div>
               <div className="text-center">
-                <button
-                  type="button"
+                <a
                   className="btn btn-primary p-2 mx-3"
-                  data-bs-toggle="button"
-                  autocomplete="off"
+                  href="#who-we-are"
                 >
                   Read More
-                </button>
-                <button
-                  type="button"
+                </a>
+                <a
                   className="btn btn-primary p-2"
-                  data-bs-toggle="button"
-                  autocomplete="off"
-                  aria-pressed="true"
+                  href="#contact"
                 >
                   Contact Us
-                </button>
+                </a>
               </div>
             </Col>
           </Row>

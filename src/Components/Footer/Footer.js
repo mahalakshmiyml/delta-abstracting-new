@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import logo from "../../Images/logo.png"
+import logo from "../../Images/logo.jpg";
 
 const Footer = () => {
   return (
@@ -17,22 +17,23 @@ const Footer = () => {
                 <p className="text-white">
                   Address
                   <br />
-                  <a>Contact: 8888-888-8888</a>
-                  <br />
-                  <a>
-                    Email: business@comapny.com
-                  </a>
+                  <a className="text-white">Email: info@captivatebusinessservices.com</a>
                 </p>
               </address>
+              <div className="text-secondary">
+                <p className="mb-0 text-white"> Working Hours</p>
+                <p className="mb-0 text-white">Monday - Friday: 9AM - 5PM</p>
+                <p className="mb-0 text-white">Saturday & Sunday Closed</p>
+              </div>
             </div>
           </Col>
           <Col md={6} className="align-self-center">
             <div className="text-center">
-              <Image src={logo} alt="" className="img-fluid" />  
-            </div> 
+              <Image src={logo} alt="" className="img-fluid" />
+            </div>
           </Col>
           <Col md={3}>
-            <div className="text-end">
+            {/* <div className="text-end">
               <h5 className="text-primary pt-2 pb-2">INFORMATION</h5>
               <ul className="list-unstyled">
                 <li>
@@ -45,7 +46,7 @@ const Footer = () => {
                   <a href="/references">References</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </Col>
         </Row>
       </Container>

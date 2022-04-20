@@ -4,12 +4,12 @@ import { Accordion, Col, Container, Row } from "react-bootstrap";
 const References = () => {
   return (
     <div>
-      <div id="careers" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      <div id="careers" className="">
         <Container>
           <Row>
             <Col md={12}>
               <div className="text-center">
-                <h1>DISCOVER YOUR POTENTIAL!!!</h1>
+                {/* <h1>DISCOVER YOUR POTENTIAL!!!</h1>
                 <p>
                   Captivate is a dynamic and growing company with exciting
                   career opportunities at our campuses in the Bengaluru. Read
@@ -22,7 +22,7 @@ const References = () => {
                   varied backgrounds are engaged to contribute to the company's
                   success, higher levels of performance result from diverse
                   teams addressing challenges and opportunities together.
-                </p>
+                </p> */}
                 <p>
                   EMAIL YOUR RESUMES TO 
                   <a className="text-dark text-decoration-none" href="mailto:hr@captivatebusinessservices.com">

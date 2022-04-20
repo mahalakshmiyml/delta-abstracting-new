@@ -47,13 +47,13 @@ const WhatWeDo = () => {
   ];
   return (
     <div>
-      <div id="what-we-do" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      <div id="what-we-do" className="">
         <Container>
-          <h3 className="pt-2 pb-2 text-center text-white">What we do</h3>
+          <h2 className="pt-2 pb-2 text-center text-white">What We do</h2>
           <Row className="g-3">
             {CardDetails.map((item) => (
               <Col md={6} key={item.id}>
-                <Card className="p-3 m-2">
+                <Card className="p-3 m-2" style={{height:"250px"}}>
                   <div className="text-center">
                     <i className="fas fa-users p-3 fs-1 bg-dark text-white rounded-circle"></i>
                   </div>

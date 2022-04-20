@@ -14,11 +14,16 @@ const Contact = () => {
           <Row className="justify-content-center">
             <Col md={7}>
               <div className="bg-white p-3 rounded shadow">
-                <h3 className="text-primary text-center">Contact us</h3>
-                <p>
+                <h3 className="text-center py-3">Contact Us</h3>
+                <p className="text-center">
+                  EMAIL YOUR RESUMES TO  
+                  <a className="text-dark text-decoration-none ms-2" href="mailto:hr@captivatebusinessservices.com">
+                   hr@captivatebusinessservices.com</a>
+                </p>
+                {/* <p>
                   If you have any query or want to leave a comment about our
                   products & services, drop a message or fill the form below.
-                </p>
+                </p> */}
                 <Form onSubmit={handleSubmit}>
                   <Row>
                     <Col md={6}>
@@ -128,7 +133,7 @@ const Contact = () => {
         </Container>
       </div>
 
-      <div id="info" className="pt-3 pb-3 pt-md-5 pb-md-5">
+      {/* <div id="info" className="pt-3 pb-3 pt-md-5 pb-md-5">
         <Container>
           <Row>
             <Col md={3}>
@@ -158,7 +163,7 @@ const Contact = () => {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

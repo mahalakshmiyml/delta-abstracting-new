@@ -8,7 +8,7 @@ const WhoWeAre = () => {
         <Container>
           <Row>
             <Col className="text-center p-5">
-              <h1>Who We Are</h1>
+              <h2>Who We Are</h2>
               <p>
                 Captivate is a Business Process Outsourcing Company
                 headquartered in Bengaluru, providing services in the areas of
@@ -28,15 +28,12 @@ const WhoWeAre = () => {
                 Title Insurance products.
               </p>
               <div className="text-center">
-                <button
-                  type="button"
+                <a
                   class="btn btn-primary active p-2"
-                  data-bs-toggle="button"
-                  autocomplete="off"
-                  aria-pressed="true"
+                  href="#what-we-do"
                 >
                   What We Do
-                </button>
+                </a>
               </div>
             </Col>
           </Row>
